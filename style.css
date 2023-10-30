@@ -1,0 +1,45 @@
+body{
+    font-family: 'Noto Sans Display', sans-serif;
+    background-color: #0113b0;
+    color: #fff;
+}
+
+.container{
+    margin-top: 20%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.container__title{
+    margin: 0 auto;
+    width: 200px;
+}
+
+.container__name{
+    min-width: 400px;
+    font-weight: 900;
+    font-size: 150px;
+    margin:0;
+}
+
+span{
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.container__birt{
+    margin-left: 100px;
+}
+
+.container__desc{
+    padding-right: 330px;
+}
+
+.container__icon{
+    font-size: 32px;
+    margin-top: 48px;
+}
+
+.fa-brands{
+    margin-left: 32px;
+}
