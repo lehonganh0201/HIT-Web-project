@@ -1,45 +1,55 @@
 body{
-    font-family: 'Noto Sans Display', sans-serif;
-    background-color: #0113b0;
-    color: #fff;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+.box {
+    width: 50px;
+    height: 50px;
+    background-color: darkorange;
 }
 
 .container{
-    margin-top: 20%;
-    transform: translateY(-50%);
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-.container__title{
-    margin: 0 auto;
-    width: 200px;
+.letter-1{
+    display: flex;
+    align-items: center;
 }
 
-.container__name{
-    min-width: 400px;
-    font-weight: 900;
-    font-size: 150px;
-    margin:0;
+.box-1{
+    display: flex;
+    flex-direction: column;
 }
 
-span{
-    font-size: 30px;
-    font-weight: 800;
+.box-2{
+    display: flex;
+    flex-direction: column;
 }
 
-.container__birt{
-    margin-left: 100px;
+.letter-2{
+    display: flex;
+    flex-direction: column;
+    margin: 0 32px;
 }
 
-.container__desc{
-    padding-right: 330px;
+.letter-3{
+    display: flex;
 }
 
-.container__icon{
-    font-size: 32px;
-    margin-top: 48px;
+.letter-4{
+    display: flex;
 }
 
-.fa-brands{
-    margin-left: 32px;
+.letter-4 > .box{
+    align-self:  center;
+
+}
+
+.letter-4 > .box-1{
+    margin: 12px 0!important;
 }
